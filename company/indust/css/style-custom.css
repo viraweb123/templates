@@ -1,0 +1,76 @@
+body, p, h1, h2, h3, h4, h5, a{
+    font-family: Gandom, BKoodakBold,'Poppins', sans-serif;
+}
+
+.rtl {
+    direction: rtl;
+} 
+
+.header-top p {
+    color: #a8b5c3;
+}
+
+.hero-item h2 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.client-text {
+    text-align: center;
+    direction: rtl;
+}
+
+.client-text h2,
+.client-text h3 {
+    font-weight: bold;
+}
+
+.client-text h3 {
+    margin-bottom: 30px;
+}
+
+.client-text p {
+    text-align: right;
+}
+
+.service-item {
+    padding-left: 20px;
+    padding-right: unset;
+    text-align: right;
+    direction: rtl;
+}
+
+.service-item .si-icon {
+    float: right;
+}
+
+.feature-box .fb-text {
+    direction: rtl;
+    text-align: right;
+}
+
+.testimonial p {
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 20px;
+    direction: rtl;
+    text-align: right;
+}
+
+.testimonial-box h2 {
+    text-align: right;
+}
+
+.testimonial-slider .owl-dots {
+    justify-content: center;
+}
+
+.cta-section {
+    direction: rtl;
+    text-align: right;
+}
+
+.footer-section {
+    direction: rtl;
+    text-align: right;
+}
