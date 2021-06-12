@@ -1,0 +1,51 @@
+# main pages
+
+- shop
+    - theme:currency: for example تومان
+    - theme:currency_code: for example IRT
+    - theme:posts.category.id
+    - theme:top_message
+- category
+    - theme:currency: for example تومان
+    - theme:currency_code: for example IRT
+    - theme:top_message
+    - theme:brand_title,
+    - theme:brand_description: در صورتی که دسته خاصی تعیین نشده باشد این توضیح در سئو صفحه قرار می‌گیرد
+    - theme:breadcrumb.shop_link
+    - theme:breadcrumb.shop_link_title
+- product
+    - theme:currency: for example تومان
+    - theme:currency_code: for example IRT
+    - theme:top_message
+    - theme:brand_title
+    - theme:breadcrumb.shop_link
+    - theme:breadcrumb.shop_link_title
+- shopping-cart
+    - theme:currency: for example تومان
+- order
+    - theme:currency: for example تومان
+    - theme:top_message
+    - theme:receipt.page.path
+
+# other pages
+
+- scripts
+    - crisp
+    - google-tag-manager
+    - common-metas
+- shop-common-widgets
+    - main-header
+    - main-footer
+    - main-slider
+    - banner
+    - deal_of_week
+    - benefit
+    - newsletter
+
+
+# Data of each product
+- main feilds
+- metas
+    - delivery
+    - image_#
+    - metas with namespace additional_info

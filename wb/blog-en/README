@@ -1,0 +1,33 @@
+# main pages
+
+- blog
+    - theme:title
+    - theme:description
+    - theme:articles.category.id
+    - theme:main_articles.category.id
+    - theme:date_locale
+- posts
+    - theme:brand_title
+    - theme:date_locale
+- image
+    - theme:brand_title
+- gallery
+
+# other pages
+
+- blog-post-template
+    - theme:articles.category.id
+    - theme:main_articles.category.id
+    - theme:date_locale
+- scripts
+    - crisp
+    - google-tag-manager
+    - common-metas
+- blog-widgets
+    - main-toolbar
+    - main-footer
+    - div-intro
+    - a-ads-frame (src and data-aa)
+
+
+    

@@ -1,0 +1,114 @@
+/* Responsive styles
+================================================== */
+
+
+
+
+/* Medium Devices, Desktops */
+@media (min-width: 992px) and (max-width:1199px){
+
+	/* Action box */
+
+	.action-box-text{
+		font-size: 13px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+
+
+	.mrb-80 {
+    	margin-bottom: 0;
+	}
+
+
+	/* Footer */
+
+	.action-box{
+		margin-bottom: 30px;
+	}
+
+
+	/* Pages */
+
+	.ts-team-content{
+		top: 80%;
+	}
+
+
+}
+
+/* Small Devices Potrait */
+@media (max-width : 767px){
+
+	.mrb-80 {
+   	margin-bottom: 0;
+	}
+	
+
+	.action-box{
+		margin-bottom: 30px;
+	}
+
+
+	/* Pages */
+
+	.ts-team-content{
+		top: 78%;
+	}
+
+	/* News */
+
+	.comments-reply {
+    	margin: 0;
+	}
+
+	.sidebar-right .widget {
+   	margin-left: 0;
+	}
+
+	.sidebar-right{
+		margin-top: 40px;
+	}
+
+	.sidebar-left .widget {
+   	margin-right: 0;
+	}
+
+
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media (max-width : 479px) {
+
+
+	/* Tab */
+
+	.featured-tab .nav-tabs > li > a{
+		padding: 0 12px;
+		font-size: 13px;
+	}
+
+
+	#back-to-top.affix {
+    	bottom: 20px;
+	}
+
+	/* Pages */
+
+	.ts-team-content{
+		top: 81%;
+	}
+
+
+}
+
+/* Custom, iPhone Retina */ 
+@media (max-width : 320px) and (max-width: 478px)  {
+
+
+
+}

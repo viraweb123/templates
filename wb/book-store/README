@@ -1,0 +1,17 @@
+# main pages
+
+- home
+- book
+    - theme:brand_title
+    - theme:authors.category.id
+    - theme:publishers.category.id
+    - theme:genres.category.id
+- books
+    - theme:brand_title
+    
+# other pages
+
+- scripts
+    - crisp
+    - google-tag-manager
+    - common-metas

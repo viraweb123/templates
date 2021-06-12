@@ -1,0 +1,271 @@
+
+/* Slider Featured Tab
+================================================== */
+
+/*-- Featured Tab --*/
+
+.featured-tab {
+    padding-left: 15px;
+}
+
+.featured-tab .nav-tabs {
+    border: 0;
+}
+
+.featured-tab .nav-tabs>li>a {
+    font-family: 'Roboto Slab', serif;
+    background: #272d33;
+    color: #fff;
+    text-shadow: none;
+    font-weight: 700;
+    border-radius: 0;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0 1px 20px;
+    padding: 0 20px;
+    border: 0 !important;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.featured-tab .tab-content {
+    border-top: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.featured-tab .nav.nav-tabs {
+    margin-bottom: 10px;
+}
+
+.featured-tab .nav-tabs>li.active>a {
+    color: #fff;
+    background: #ffb600;
+    position: relative;
+}
+
+.featured-tab .nav-tabs>li.active>a:after {
+    position: absolute;
+    content: " ";
+    width: auto;
+    height: auto;
+    bottom: -20px;
+    left: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #ffb600 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.featured-tab .lead {
+    font-size: 18px;
+    line-height: 28px;
+    color: #303030;
+    font-weight: 400;
+}
+
+.featured-tab .tab-pane img.pull-left {
+    margin: 0 30px 10px 0;
+}
+
+.featured-tab .tab-pane img.pull-right {
+    margin: 0 0 0 30px;
+}
+
+.featured-tab .tab-icon i {
+    font-size: 230px;
+}
+
+.tab-image-content {
+    padding-left: 0;
+}
+
+.featured-tab .border-title.border-left {
+    display: inline-block;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+
+/* Tab services */
+
+.featured-tab.tab-services .nav-tabs>li>a {
+    font-size: 14px;
+    padding: 0 21px;
+    text-transform: capitalize;
+}
+
+.featured-tab.tab-services .nav.nav-tabs {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* Services
+================================================== */
+
+/* Service box */
+
+/* Service box bg */
+
+.ts-service-box-bg{
+    background: #252525;
+    color: #fff;
+    padding: 30px;
+}
+
+.ts-service-box-bg h4,
+.ts-service-box-bg h3{
+    color: #fff;
+}
+
+/* Service box 
+
+.ts-service-box .ts-service-icon i {
+    font-size: 24px;
+    float: left;
+    color: #fff;
+    background: #ffb600;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.ts-service-box .ts-service-box-content {
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.tab-content .ts-service-box .ts-service-box-content {
+    margin-left: 90px;
+}
+
+.ts-service-box .ts-service-box-content h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.ts-service-box .ts-service-box-info {
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+
+.service-box-title {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.service-box-title a {
+    color: #333;
+}
+
+.service-box-title a:hover {
+    color: #ffb600;
+}
+
+.service-center-img {
+    padding: 0 20px;
+}
+*/
+
+
+
+/* Icon squre */
+
+.ts-service-icon.icon-round i {
+    font-size: 24px;
+    color: #fff;
+    background: #ffb600;
+    text-align: center;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    float: none;
+}
+
+
+/* Icon left */
+
+.ts-service-box.icon-left .ts-service-box-icon {
+    float: left;
+}
+
+.ts-service-box.icon-left .ts-service-box-icon i {
+    background: #ffb600;
+    color: #fff;
+}
+
+.ts-service-box.icon-left .ts-service-box-info {
+    margin-left: 90px;
+}
+
+.ts-service-box.icon-left .ts-service-box-info h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+
+/* Service no box */
+
+.service-no {
+    font-size: 48px;
+    color: #dbdbdb;
+    float: left;
+    margin-top: 10px;
+}
+
+
+/* Service Image */
+
+.ts-service-image-wrapper {
+    margin-bottom: 30px;
+}
+
+
+
+.ts-service-info {
+    margin-left: 85px;
+}
+
+.ts-service-info h3 {
+    font-size: 16px;
+}
+
+
+/* Service Classic */
+
+.ts-service-classic .ts-service-icon i {
+    font-size: 24px;
+    float: left;
+    color: #fff;
+    background: #ffb600;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.ts-service-classic .ts-service-box-info {
+    margin-left: 80px;
+}
+
+.ts-service-classic:hover .ts-service-icon i {
+    background: #ffb600;
+}
