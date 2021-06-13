@@ -29,6 +29,38 @@
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
 	<link rel="stylesheet" href="css/style-custom.css"/>
+	
+	<!-- CRISP online chat -->
+	<script type="text/javascript">
+		window.$crisp=[];
+		window.CRISP_WEBSITE_ID="72d76dbd-e7cb-437f-85cd-7c23ccc81d35";
+		(function(){
+			d=document;s=d.createElement("script");
+			s.src="https://client.crisp.chat/l.js";s.async=1;
+			d.getElementsByTagName("head")[0].appendChild(s);
+		})();
+	</script>
+	
+	<script>
+		/*
+		 * Title: Google Tag Manager
+		 * Description: This part of the code enalbe external services to monitor customers.
+		 */
+		var googleTagManagerAccount = 'GTM-N7D6Z28';
+		
+		if (typeof $window.dataLayer === 'undefined') {
+			$window.dataLayer = [];
+			$window.dataLayer.push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			$window.loadLibrary('https://www.googletagmanager.com/gtm.js?id=' + googleTagManagerAccount);
+		} else {
+			$window.dataLayer.push({
+				'event': 'pageview'
+			});
+		}
+	</script>
 
 
 	<!--[if lt IE 9]>
