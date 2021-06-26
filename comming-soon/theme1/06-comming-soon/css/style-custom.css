@@ -1,0 +1,16 @@
+body, p, h1, h2, h3, h4, h5, a{
+    font-family: IRANSansWeb, Gandom, BKoodakBold,'Poppins', sans-serif;
+}
+
+.rtl {
+    direction: rtl;
+} 
+
+.footer-section {
+    direction: rtl;
+    text-align: right;
+}
+
+.title {
+	font-weight: bold;
+}

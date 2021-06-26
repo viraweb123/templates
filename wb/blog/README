@@ -6,7 +6,7 @@
     - theme:articles.category.id
     - theme:main_articles.category.id
     - theme:date_locale
-- pages
+- posts
     - theme:brand_title
     - theme:date_locale
 - image
@@ -15,7 +15,7 @@
 
 # other pages
 
-- blog-page-template
+- blog-post-template
     - theme:articles.category.id
     - theme:main_articles.category.id
     - theme:date_locale

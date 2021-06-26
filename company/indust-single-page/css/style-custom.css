@@ -74,3 +74,15 @@ body, p, h1, h2, h3, h4, h5, a{
     direction: rtl;
     text-align: right;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-item h2 {
+        font-size: 54px;
+    }
+}
+ 
+@media only screen and (max-width: 767px) {
+    .hero-item h2 {
+        font-size: 54px;
+    }
+}
